@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meddical - Appointment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="Style(appointment).css">
+
+</head>
+<body>
+  <header class="sticky-top w-100 bg-white shadow-sm">
+  <style>
+  .form-control::placeholder {
+    color: #BFD2F8 !important;
+    opacity: 1;
+  }
+  select.form-control {
+    color: #BFD2F8 !important;
+  }
+  select.form-control option {
+    color: #333 !important; 
+  }
+</style>
+</style>
+
+  <div class="container py-3 d-none d-md-block">
+    <div class="row align-items-center">
+      <div class="col-md-3">
+        <h2 class="m-0 fw-bold" style="color: #1F2B6C;">MED<span style="color: #159EEE;">DICAL</span></h2>
+      </div>
+      <div class="col-md-9 d-flex justify-content-end text-start">
+        <div class="d-flex align-items-center me-4">
+          <i class="fa-solid fa-phone fs-3 me-2" style="color: #1F2B6C;"></i>
+          <div>
+            <small class="text-uppercase fw-bold" style="color: #1F2B6C;">Emergency</small><br>
+            <small style="color: #159EEE;">(237) 681-812-255</small>
+          </div>
+        </div>
+        <div class="d-flex align-items-center me-4">
+          <i class="fa-regular fa-clock fs-3 me-2" style="color: #1F2B6C;"></i>
+          <div>
+            <small class="text-uppercase fw-bold" style="color: #1F2B6C;">Work Hour</small><br>
+            <small style="color: #159EEE;">09:00 - 20:00 Everyday</small>
+          </div>
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="fa-solid fa-location-dot fs-3 me-2" style="color: #1F2B6C;"></i>
+          <div>
+            <small class="text-uppercase fw-bold" style="color: #1F2B6C;">Location</small><br>
+            <small style="color: #159EEE;">0123 Some Place</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg" style="background-color: #1F2B6C;">
+    <div class="container">
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link text-white" href="Home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="About.us.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="Doctors.html">Doctors</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="news.html">News</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="d-flex align-items-center">
+          <i class="fa-solid fa-magnifying-glass text-white me-4"></i>
+          <a href="appointment.html" class="btn fw-bold rounded-pill px-4 py-2 text-decoration-none bg-white" style="color: #1F2B6C;">Appointment</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </header>
+  <div class="container-fluid py-5 text-center bg-light">
+    <p class="mb-1 text-muted">Home / Appointment</p>
+    <h1 class="fw-bold" style="color: #1F2B6C;">Book an Appointment</h1>
+  </div>
+  <div class="container my-5">
+    <div class="row g-5">
+      <div class="col-lg-6">
+        <h3 class="fw-bold mb-3" style="color: #1F2B6C;">Book an Appointment</h3>
+        <p class="text-muted mb-4" style="font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et.</p>
+        <form class="p-0 rounded overflow-hidden" style="background-color: #1F2B6C;">
+          <div class="p-4">
+            <div class="row g-3 mb-3">
+              <div class="col-6">
+                <input type="text" class="form-control bg-transparent text-white border-secondary" placeholder="Name">
+              </div>
+              <div class="col-6">
+                <select class="form-control bg-transparent border-secondary">
+                  <option value="" disabled selected>Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="row g-3 mb-3">
+              <div class="col-6">
+                <input type="email" class="form-control bg-transparent text-white border-secondary" placeholder="Email">
+              </div>
+              <div class="col-6">
+                <input type="tel" class="form-control bg-transparent text-white border-secondary" placeholder="Phone">
+              </div>
+            </div>
+
+            <div class="row g-3 mb-3">
+              <div class="col-6">
+                <input type="text" class="form-control bg-transparent text-white border-secondary" placeholder="Date">
+              </div>
+              <div class="col-6">
+                <input type="text" class="form-control bg-transparent text-white border-secondary" placeholder="Time">
+              </div>
+            </div>
+            
+            <div class="row g-3 mb-3">
+              <div class="col-6">
+                <select class="form-control bg-transparent border-secondary">
+                  <option value="" disabled selected>Doctor</option>
+                  <option value="dr1">Dr. Smith</option>
+                </select>
+              </div>
+              <div class="col-6">
+                <select class="form-control bg-transparent border-secondary">
+                  <option value="" disabled selected>Department</option>
+                  <option value="cardio">Cardiology</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="mb-2">
+              <textarea class="form-control bg-transparent text-white border-secondary" rows="3" placeholder="Message"></textarea>
+            </div>
+          </div>
+          
+          <button type="button" class="btn w-100 fw-bold rounded-0 py-3" style="background-color: #BFD2F8; color: #1F2B6C;">SUBMIT</button>
+        </form>
+      </div>
+      <div class="col-lg-6">
+        <div class="p-5 rounded text-white h-100" style="background-color: #1F2B6C;">
+          <h2 class="fw-bold mb-4">Schedule hours</h2>
+          <ul class="list-unstyled mb-4" style="line-height: 2.5; font-size: 14px;">
+            <li class="d-flex justify-content-between align-items-center"><span>Monday</span> <span>—</span> <span>09:00 AM - 07:00 PM</span></li>
+            <li class="d-flex justify-content-between align-items-center"><span>Tuesday</span> <span>—</span> <span>09:00 AM - 07:00 PM</span></li>
+            <li class="d-flex justify-content-between align-items-center"><span>Wednesday</span> <span>—</span> <span>09:00 AM - 07:00 PM</span></li>
+            <li class="d-flex justify-content-between align-items-center"><span>Thursday</span> <span>—</span> <span>09:00 AM - 07:00 PM</span></li>
+            <li class="d-flex justify-content-between align-items-center"><span>Friday</span> <span>—</span> <span>09:00 AM - 07:00 PM</span></li>
+            <li class="d-flex justify-content-between align-items-center"><span>Saturday</span> <span>—</span> <span>09:00 AM - 07:00 PM</span></li>
+            <li class="d-flex justify-content-between align-items-center"><span>Sunday</span> <span>—</span> <span>Closed</span></li>
+          </ul>
+          <hr style="border-color: rgba(255,255,255,0.3);">
+          <div class="d-flex align-items-center justify-content-center mt-4">
+            <i class="fa-solid fa-phone-volume fs-2 me-3"></i>
+            <div>
+              <h5 class="m-0 fw-bold">Emergency</h5>
+              <h5 class="m-0 fw-bold">(237) 681-812-255</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mb-5">
+    <img src="c:\Users\Lenovo\Downloads\nti project\appointment\map.png" alt="Map Placeholder" class="w-100 rounded" style="height: 350px; object-fit: cover;">
+  </div>
+  <div class="container my-5 text-center">
+    <h6 class="fw-bold text-uppercase" style="color: #159EEE; letter-spacing: 2px;">Get In Touch</h6>
+    <h2 class="fw-bold mb-4" style="color: #1F2B6C;">Contact</h2>
+    <div class="row g-3 text-start">
+      <div class="col-lg-3 col-md-6"><div class="p-4 rounded h-100" style="background-color: #BFD2F8; color: #1F2B6C;"><i class="fa-solid fa-phone fs-4 mb-2"></i><br><h6 class="fw-bold">EMERGENCY</h6><small>(237) 681-812-255<br>(237) 666-331-894</small></div></div>
+      <div class="col-lg-3 col-md-6"><div class="p-4 rounded h-100 text-white" style="background-color: #1F2B6C;"><i class="fa-solid fa-location-dot fs-4 mb-2"></i><br><h6 class="fw-bold">LOCATION</h6><small>0123 Some place<br>9876 Some country</small></div></div>
+      <div class="col-lg-3 col-md-6"><div class="p-4 rounded h-100" style="background-color: #BFD2F8; color: #1F2B6C;"><i class="fa-solid fa-envelope fs-4 mb-2"></i><br><h6 class="fw-bold">EMAIL</h6><small>info@meddical.com<br>myebstudio@gmail.com</small></div></div>
+      <div class="col-lg-3 col-md-6"><div class="p-4 rounded h-100" style="background-color: #BFD2F8; color: #1F2B6C;"><i class="fa-solid fa-clock fs-4 mb-2"></i><br><h6 class="fw-bold">WORKING HOURS</h6><small>Mon-Sat 09:00-20:00<br>Sunday Emergency only</small></div></div>
+    </div>
+  </div>
+  <footer class="py-5 mt-5 text-white" style="background-color: #1F2B6C;">
+    <div class="container">
+      <div class="row g-4 mb-4">
+        <div class="col-md-3">
+          <h4 class="fw-bold text-white mb-3">MEDDICAL</h4>
+          <p class="text-white-50" style="font-size: 14px;">Leading the Way in Medical Excellence, Trusted Care.</p>
+        </div>
+        <div class="col-md-3">
+          <h6 class="text-white fw-bold mb-3">Important Links</h6>
+          <ul class="list-unstyled text-white-50" style="font-size: 14px; line-height: 2;">
+            <li><a href="appointment.html" class="text-white-50 text-decoration-none">Appointment</a></li>
+            <li>Doctors</li>
+            <li>Services</li>
+            <li>About Us</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6 class="text-white fw-bold mb-3">Contact Us</h6>
+          <ul class="list-unstyled text-white-50" style="font-size: 14px; line-height: 2;">
+            <li>Call: (237) 681-812-255</li>
+            <li>Email: fildineeesoe@gmail.com</li>
+            <li>Address: 0123 Some place</li>
+            <li>Some country</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6 class="text-white fw-bold mb-3">Newsletter</h6>
+          <div class="input-group">
+            <input type="text" class="form-control rounded-start border-0" placeholder="Enter your email address" style="background-color: #BFD2F8;">
+            <span class="input-group-text rounded-end border-0" style="background-color: #BFD2F8;">
+              <i class="fa-solid fa-paper-plane text-primary"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <hr style="border-color: #ffffff50;">
+      <div class="d-flex justify-content-between align-items-center mt-3">
+        <p class="m-0 text-white-50" style="font-size: 12px;">© 2021 Hospital's Name All Rights Reserved by PNTEC-LTD</p>
+        <div class="text-white">
+          <i class="fa-brands fa-linkedin me-3"></i>
+          <i class="fa-brands fa-facebook me-3"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
