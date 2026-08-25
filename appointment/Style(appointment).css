@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.custom-navbar {
+  background-color: #1F2B6C;
+  padding: 15px 0;
+}
+
+.btn-appointment {
+  background-color: #BFD2F8;
+  color: #1F2B6C;
+  font-weight: bold;
+}
+.btn-appointment:hover {
+  background-color: white;
+}
+
+.hero-header {
+  background: linear-gradient(90deg, #f0f4fd 40%, #e0e9fa 100%);
+  color: #666666;
+}
+
+.form-box {
+  background-color: #1F2B6C;
+  border-radius: 5px;
+}
+
+.custom-input {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 4px;
+}
+.custom-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.custom-input:focus {
+  outline: none;
+  border-color: white;
+}
+
+.btn-submit {
+  background-color: #BFD2F8;
+  color: #1F2B6C;
+  font-weight: bold;
+}
+.btn-submit:hover {
+  background-color: white;
+}
+
+.info-box {
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+.light-box {
+  background-color: #BFD2F8;
+  color: #1F2B6C;
+}
+.dark-box {
+  background-color: #1F2B6C;
+  color: white;
+}
+
+.custom-footer {
+  background-color: #1F2B6C;
+}
