@@ -1,0 +1,83 @@
+.bg-body-tertiary {
+    background-color: #1F2B6C !important;
+}
+
+.navbar-expand-lg.bg-body-tertiary {
+    height: 5rem;
+}
+
+.g-4,
+.gx-4 {
+    --bs-gutter-x: 4.5rem;
+
+}
+
+.g-4,
+.gy-4 {
+    --bs-gutter-y: 5.5rem;
+}
+
+.btn {
+    background-color: #BFD2F8 !important;
+}
+
+.d-block {
+    background-color: #1F2B6C !important;
+
+}
+
+.col-md-3 {
+    width: 16%;
+}
+
+
+.g-4, .gx-4 {
+    --bs-gutter-x: 3.5rem;
+}
+
+.me-2 {
+    margin-right: 15.5rem!important;
+}
+
+
+.container.p-5 {
+    padding: 5rem!important;
+}
+
+
+.dark-blue-color
+{
+    background-color: #1F2B6C!important;
+}
+
+.light-blue-color {
+    background-color: #BFD2F8!important;
+}
+.light-blue-text {
+    color: #BFD2F8!important;
+}
+.aqua-color-text {
+    color: #159EEC!important;
+}
+.aqua-color-color {
+    background-color: #159EEC!important;
+}
+.dark-blue-text {
+    color: #1F2B6C!important;
+}
+.ms-5 {
+    margin-left: 14rem !important;
+}
+
+.card-body {
+    padding: 0%!important;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
